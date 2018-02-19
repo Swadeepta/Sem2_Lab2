@@ -64,7 +64,7 @@ int linked_list::countItems (void){
     return c;
 }
 
-void linked_list::Delete () {
+void linked_list::Delete () {//deleting node
     int d = linked_list::countItems();
     if (d == 1)
         head = NULL;
